@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#gameArea {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+#clickButton, #bonusButton, #restartButton {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+#score {
+    font-size: 24px;
+    color: green;
+}
+
+#timer {
+    font-size: 24px;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
